@@ -60,3 +60,5 @@ export abstract class BaseService<T extends Model> {
 
   protected abstract getPrimaryKey(): string;
 }
+
+export { BaseService }
